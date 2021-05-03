@@ -8,7 +8,6 @@ import Modal from "react-modal";
 import { Link } from "react-router-dom";
 import AddDetails from "./AuthOperations/AddDetails";
 import { motion } from "framer-motion";
-import { isEmptyObject } from "jquery";
 // import { css } from "@emotion/core";
 // import ClipLoader from "react-spinners/ClipLoader";
 Modal.setAppElement("#root");
@@ -139,7 +138,7 @@ function HospitalDetails() {
                     <td>{beds.Nameofhospital}</td>
                     <td>
                       <Link
-                        className="btn btn-primary mr-2"
+                        className="btn btn-dark mr-2"
                         to={`/details/${beds.id}`}
                       >
                         View
@@ -153,7 +152,7 @@ function HospitalDetails() {
                       </Link>
 
                       <button
-                        className="btn btn-danger"
+                        className="btn btn-outline-danger"
                         onClick={() => deleteUser(beds.id)}
                       >
                         Delete
