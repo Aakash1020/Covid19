@@ -43,7 +43,7 @@ const Sidebar = () => {
                 />
               </svg>{" "}
             </span>
-            <Link className="sidebar_text" to="/medical">
+            <Link className="sidebar_text" to="/">
               Medical Supplies
             </Link>
           </li>
@@ -69,7 +69,7 @@ const Sidebar = () => {
                 </defs>
               </svg>{" "}
             </span>
-            <Link className="sidebar_text" to="/medical">
+            <Link className="sidebar_text" to="/">
               Ambulance Services
             </Link>
           </li>
@@ -87,7 +87,7 @@ const Sidebar = () => {
                 />
               </svg>{" "}
             </span>
-            <Link className="sidebar_text" to="/medical">
+            <Link className="sidebar_text" to="/">
               Food Services
             </Link>
           </li>
@@ -127,7 +127,7 @@ const Sidebar = () => {
                 />
               </svg>{" "}
             </span>
-            <Link className="sidebar_text" to="/medical">
+            <Link className="sidebar_text" to="/">
               Other Services
             </Link>
           </li>
@@ -158,9 +158,9 @@ const Sidebar = () => {
       <Switch>
         <Route exact path="/details/edit/:id" component={EditDetails} />
         <Route exact path="/details/:id" component={ViewDetails} />
-        <Route exact path="/medical">
+        {/* <Route exact path="/medical">
           <MedicalDashboard />
-        </Route>
+        </Route> */}
         <Route exact path="/" component={Dashboard}></Route>
       </Switch>
     </div>

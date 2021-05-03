@@ -187,7 +187,7 @@ function AddDetails() {
               color={color}
               loading={loading}
               css={override}
-              size={60}
+              size={30}
             />
           </div>
         </form>
