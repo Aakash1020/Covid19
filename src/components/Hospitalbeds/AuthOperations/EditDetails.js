@@ -180,7 +180,7 @@ function EditDetails() {
                 </div>
 
                 <button type="submit" className="btn btn-primary">
-                  Update user
+                  Update
                 </button>
               </form>
             </div>
