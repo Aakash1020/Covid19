@@ -86,7 +86,7 @@ function HospitalDetails() {
               type="button"
               className="btn btn-dark"
             >
-              Add Hospitals
+              Add Details
             </button>
 
             <Modal
