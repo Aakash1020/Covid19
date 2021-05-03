@@ -1,0 +1,53 @@
+.modal-backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content-wrapper {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  background: white;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 50px;
+}
+.container__view {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.head_view {
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+}
+.text_container_view {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.text_details_view {
+  padding: 4px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border-left: 1px solid red;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+.header_container_view {
+  text-align: center;
+}
+.section1 {
+  width: 50%;
+}
